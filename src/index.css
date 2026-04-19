@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Fira+Code:wght@300;500&display=swap');
+
+body {
+  @apply bg-[#05070a] text-slate-300 font-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.burp-tab {
+  @apply px-4 py-1 border-r border-slate-700 cursor-pointer hover:bg-slate-800 transition-colors text-xs font-mono uppercase tracking-widest;
+}
+
+.burp-tab.active {
+  @apply bg-slate-800 text-gold border-b-2 border-b-gold;
+}
+
+.glass-panel {
+  @apply bg-slate-900/50 border border-slate-800 backdrop-blur-sm;
+}
+
+.neon-text {
+  text-shadow: 0 0 10px rgba(251, 191, 36, 0.5);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-slate-900;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-700 rounded-full;
+}
