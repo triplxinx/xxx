@@ -20,7 +20,7 @@ The Forge is a multi-layered manifestation for managing AI "Jinn" (Dæmons) usin
 ## ⚡ Installation & Setup
 
 ### 1. Backend (The Aetheric Gate)
-Open a terminal in the root directory:
+Open a terminal in the root directory xxx:
 
     pip install -r requirements.txt
     python main.py
